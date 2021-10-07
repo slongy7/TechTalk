@@ -80,12 +80,18 @@ const resolvers = {
                         $addToSet: {
                             comments: { commentText, commentAuthor: context.profile.username },
                         },
+                    },
+                    {
+                        new: true,
+                        runValidators: true,
                     }
-                )
+                );
             }
-        }
-    }
-}
+            throw new AuthenticationError ('Please log in');
+        },
+        //continue with addJob
+    },
+};
 
 
 module.exports = resolvers;
