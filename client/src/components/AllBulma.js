@@ -13,7 +13,7 @@ const AllBulma = () => {
         </div>
 
         // sign in box   
-        <form class='box'>
+        <form class='box' style='boxSizing: content-box'>
             <div class='field'>
                 <label class='label'>Email</label>
                 <div class='control'>

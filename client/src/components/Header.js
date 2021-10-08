@@ -1,3 +1,4 @@
+import 'bulma/css/bulma.min.css';
 import React from 'react'
 
 const Header = () => {
@@ -6,7 +7,9 @@ const Header = () => {
             <nav class="navbar" role="navigation" aria-label="main navigation">
               <div class="navbar-brand">
                 <a class="navbar-item" href="https://slongy7.github.io/project_3/">
-                  <img src="src/img/Free_Sample_By_Wix.png"/>
+                  
+                  <h1 className = 'text'>TEXTTALK</h1>  
+                  {/* <img src="src/img/Free_Sample_By_Wix.png"/> */}
                 </a>
             
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
