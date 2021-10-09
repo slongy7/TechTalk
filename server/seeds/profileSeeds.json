@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Steven1",
+        "username": "steven1",
+        "email": "steven1@mail.com",
+        "password": "password123",
+        "bio": "Hey! I'm Steven1, which means I'm the best Steven",
+        "profileImage": "image.png",
+        "posts": "",
+        "jobs": ""
+    },
+    {
+        "name": "Steven2",
+        "username": "steven2",
+        "email": "steven2@mail.com",
+        "password": "password123",
+        "bio": "Yo Yo! Calling all techy friends who want to collab on a sick project!",
+        "profileImage": "",
+        "posts": "",
+        "jobs": 
+            {
+                "companyName": "Google",
+                "jobSalary": 65,
+                "createdAt": "09-10-2020",
+                "jobTitle": "CEO",
+                "jobLogo": "logo.png",
+                "jobDescription": "",
+                "jobLocation": "Georgia"
+            }
+    },
+    {
+        "name": "Steven3",
+        "username": "steven3",
+        "email": "steven3@aol.com",
+        "password": "password123",
+        "bio": "I'm a Full Stack Developer",
+        "profileImage": "image.png",
+        "posts": 
+            {
+                "postText": "This is my first post as Steven3.",
+                "postAuthor": "Steven3",
+                "profileImage": "blueImage.png"
+
+            },
+        "jobs": ""
+    },
+    {
+        "name": "Steven4",
+        "username": "steven4",
+        "email": "steven4@yahoo.com",
+        "password": "password123",
+        "bio": "I'm a Technical Support Specialist looking for a dev job!",
+        "profileImage": "image.png",
+        "posts": "",
+        "jobs": ""
+    }
+]
