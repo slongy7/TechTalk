@@ -1,0 +1,37 @@
+[
+    {
+        "companyName": "Google",
+        "jobSalary": 65,
+        "createdAt": "09-10-2020",
+        "jobTitle": "CEO",
+        "jobLogo": "logo.png",
+        "jobDescription": "",
+        "jobLocation": "Georgia"
+    },
+    {
+        "companyName": "Microsoft",
+        "createdAt": "09-10-2020",
+        "jobTitle": "CFO",
+        "jobLogo": "",
+        "jobDescription": "",
+        "jobLocation": "Columbus, OH"
+    },
+    {
+        "companyName": "Celina's Company",
+        "jobSalary": 68,
+        "createdAt": "09-10-2020",
+        "jobTitle": "Student Developer",
+        "jobLogo": "logo.png",
+        "jobDescription": "Bestest job everr",
+        "jobLocation": "France"
+    },
+    {
+        "companyName": "Alyson's Company",
+        "jobSalary": 70,
+        "createdAt": "09-10-2020",
+        "jobTitle": "Full Stack Web Developer",
+        "jobLogo": "logo.png",
+        "jobDescription": "Great company with amazing PTO",
+        "jobLocation": "Hawaii"
+    }
+]
