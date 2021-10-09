@@ -1,5 +1,6 @@
 import 'bulma/css/bulma.min.css';
 import React from 'react'
+// import TechTalk from 'src/img/TechTalk.png'
 
 const Header = () => {
     return (
@@ -9,7 +10,7 @@ const Header = () => {
                 <a class="navbar-item" href="https://slongy7.github.io/project_3/">
                   
                   <h1 className = 'text'>TEXTTALK</h1>  
-                  {/* <img src="src/img/Free_Sample_By_Wix.png"/> */}
+                  {/* <img src={TechTalk}/> */}
                 </a>
             
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
