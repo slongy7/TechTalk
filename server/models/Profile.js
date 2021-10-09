@@ -36,6 +36,12 @@ const profileSchema = new Schema({
             ref: 'Post',
         },
     ],
+    jobs: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Job',
+        }
+    ]
 });
 
 const Profile = model('Profile', profileSchema);
