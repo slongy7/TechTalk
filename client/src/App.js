@@ -10,15 +10,22 @@ import { setContext } from '@apollo/client/link/context';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import AllBulma from './components/AllBulma'
+//import AllBulma from './components/AllBulma'
+
 import Header from './components/Header'
+import Landing from './components/Landing'
+import Portfolio from './components/Portfolio'
 import Loggedin from './components/Loggedin'
 import Notloggedin from './components/Notloggedin'
 import Footer from './components/Footer'
+
 import Landing from './pages/Landing'
 import Profile from './pages/Profile'
 import Signup from './pages/Signup'
 import 'bulma/css/bulma.min.css';
 // import AllBulma from './components/AllBulma'
+
+
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -42,6 +49,7 @@ const client = new ApolloClient({
 });
 
 function App() {
+
   return (
     <ApolloProvider client={client}>
     <Router>
