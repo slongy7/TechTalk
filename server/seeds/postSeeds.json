@@ -1,22 +1,22 @@
 [
     {
         "postText": "This is my first post as Steven1.",
-        "postAuthor": "Steven1",
+        "postAuthor": "steven1",
         "profileImage": "blueImage.png"
     },
     {
         "postText": "This is my second post as Steven1.",
-        "postAuthor": "Steven1",
+        "postAuthor": "steven1",
         "profileImage": "blueImage.png"
     },
     {
         "postText": "This is my first post as Steven2.",
-        "postAuthor": "Steven2",
+        "postAuthor": "steven2",
         "profileImage": "blueImage.png"
     },
     {
         "postText": "This is my first post as Steven3.",
-        "postAuthor": "Steven3",
+        "postAuthor": "steven3",
         "profileImage": "blueImage.png"
     }
 ]
