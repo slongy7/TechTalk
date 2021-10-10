@@ -16,7 +16,7 @@ db.once('open', async () => {
         for(let i = 0; i < postSeeds.length; i++) {
             const { _id, postAuthor } = await Post.create(postSeeds[i]);
             const profile = await Profile.findOneAndUpdate(
-                { username: post },
+                { username: postAuthor },
                 {
                     $addToSet: {
                         posts: _id,
@@ -25,7 +25,7 @@ db.once('open', async () => {
             );
         }
         for(let i = 0; i < jobSeeds.length; i++) {
-            const job = await Job.create(JobSeeds[i]);
+            const job = await Job.create(jobSeeds[i]);
         }
     } catch (err) {
         console.error(err);
