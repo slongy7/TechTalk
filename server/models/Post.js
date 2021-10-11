@@ -16,7 +16,8 @@ const postSchema = new Schema({
     },
     date: {
         type: Date,
-        required: true,
+        default: Date.now,
+        get: (timestamp) => dateFormat(timestamp),
     },
     comments: [
         {

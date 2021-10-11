@@ -17,14 +17,22 @@ const typeDefs = gql`
         postText: String
         postAuthor: String
         profileImage: String
-        date: Date
+        date: String
         comments: [Comment]!
     }
+
+    type Comment {
+        _id: ID
+        commentText: String
+        commentAuthor: String
+        createdAt: String
+    }
+    
     type Job {
         _id: ID
         companyName: String
-        jobSalary: Number
-        createdAt: Date
+        jobSalary: String
+        createdAt: String
         jobTitle: String
         jobLogo: String
         jobDescription: String
