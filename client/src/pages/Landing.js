@@ -1,6 +1,6 @@
+import React from 'react';
+import { useQuery } from '@apollo/client';
 import 'bulma/css/bulma.min.css';
-import React from 'react'
-
 
 const Landing = () => {
     return (
@@ -32,5 +32,6 @@ const Landing = () => {
         
         )
     }
-      
-export default Landing
+
+
+export default Landing;

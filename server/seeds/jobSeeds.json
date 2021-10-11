@@ -1,7 +1,7 @@
 [
     {
         "companyName": "Google",
-        "jobSalary": 65,
+        "jobSalary": "65",
         "createdAt": "09-10-2020",
         "jobTitle": "CEO",
         "jobLogo": "logo.png",
@@ -12,13 +12,13 @@
         "companyName": "Microsoft",
         "createdAt": "09-10-2020",
         "jobTitle": "CFO",
-        "jobLogo": "",
+        "jobLogo": "image.png",
         "jobDescription": "",
         "jobLocation": "Columbus, OH"
     },
     {
         "companyName": "Celina's Company",
-        "jobSalary": 68,
+        "jobSalary": "68",
         "createdAt": "09-10-2020",
         "jobTitle": "Student Developer",
         "jobLogo": "logo.png",
@@ -27,7 +27,7 @@
     },
     {
         "companyName": "Alyson's Company",
-        "jobSalary": 70,
+        "jobSalary": "70",
         "createdAt": "09-10-2020",
         "jobTitle": "Full Stack Web Developer",
         "jobLogo": "logo.png",

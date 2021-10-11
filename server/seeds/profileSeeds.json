@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Steven1",
+        "username": "steven1",
+        "email": "steven1@mail.com",
+        "password": "password123",
+        "bio": "Hey! I'm Steven1, which means I'm the best Steven",
+        "profileImage": "image.png"
+    },
+    {
+        "name": "Steven2",
+        "username": "steven2",
+        "email": "steven2@mail.com",
+        "password": "password123",
+        "bio": "Yo Yo! Calling all techy friends who want to collab on a sick project!",
+        "profileImage": ""
+ 
+    },
+    {
+        "name": "Steven3",
+        "username": "steven3",
+        "email": "steven3@aol.com",
+        "password": "password123",
+        "bio": "I'm a Full Stack Developer",
+        "profileImage": "image.png"
+        
+    },
+    {
+        "name": "Steven4",
+        "username": "steven4",
+        "email": "steven4@yahoo.com",
+        "password": "password123",
+        "bio": "I'm a Technical Support Specialist looking for a dev job!",
+        "profileImage": "image.png"
+
+    }
+]
