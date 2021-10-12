@@ -1,16 +1,40 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
 import 'bulma/css/bulma.min.css';
+import '../img/TechTalk.png'
 
 const Landing = () => {
     return (
     
-        <div class="box">
-            TechTalk text box!
+        <div class='colums is-half'>
+            <div class='column is-8'></div>
+            {/* <img>'../img/TechTalk.png</img> */}
+            
+            
+            
             <form class='box'>
             <br>
 
             </br>
+
+            
+
+            <div class="columns">
+                <div class="column is-half">is-half</div>
+                <div class="column"><input className='input' type='password' placeholder='********'></input></div>
+                <div class="column">Auto</div>
+            </div>
+
+            <div class='columns is-mobile is-centered'>
+                <div class='columns is-half'></div>
+                <p class='bd-notification is-primary'></p>
+            </div>
+
+            <a href="./Profile.js">Profile</a>
+            <br></br>
+            <a href="./Signup.js">Signup</a>
+
+            <br></br>
 
             <div className='field'>
                 <label class='label'>Email</label>
