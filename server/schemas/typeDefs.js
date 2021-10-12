@@ -17,7 +17,7 @@ const typeDefs = gql`
         postText: String
         postAuthor: String
         profileImage: String
-        date: String
+        createdAt: String
         comments: [Comment]!
     }
 
