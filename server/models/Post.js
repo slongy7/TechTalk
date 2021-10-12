@@ -14,22 +14,22 @@ const postSchema = new Schema({
             type: String,
             required: false,
     },
-    date: {
+    createdAt: {
         type: Date,
         default: Date.now,
         get: (timestamp) => dateFormat(timestamp),
     },
     comments: [
         {
-            comment_text: {
+            commentText: {
                 type: String,
                 required: true,
             },
-            user_name: {
+            username: {
                 type: String,
                 required: true
             },
-            date: {
+            createdDate: {
                 type: Date,
                 default: Date.now,
                 get: (timestamp) => dateFormat(timestamp),
