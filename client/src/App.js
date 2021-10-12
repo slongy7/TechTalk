@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from './img/TechTalk.png'
 
 
 import {
@@ -57,7 +58,7 @@ function App() {
     <div className="App">
       <Header />
         <Route exact path='/'>
-          <Landing />
+          <Landing Image={Image}/>
         </Route>
 
         <Route exact path='/client/src/pages/Profile.js'>
