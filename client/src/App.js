@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import {
   ApolloClient,
   InMemoryCache,
@@ -9,11 +10,11 @@ import {
 import { setContext } from '@apollo/client/link/context';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import AllBulma from './components/AllBulma'
+// import AllBulma from './components/AllBulma'
 //import AllBulma from './components/AllBulma'
 
 import Header from './components/Header'
-import Landing from './components/Landing'
+// import Landing from './components/Landing'
 import Portfolio from './components/Portfolio'
 import Loggedin from './components/Loggedin'
 import Notloggedin from './components/Notloggedin'
@@ -63,9 +64,9 @@ function App() {
           <Profile />
         </Route>
 
-        <Route exact path='/client/src/pages/Signup.js'>
+        {/* <Route exact path='/client/src/pages/Signup.js'>
           <Signup />
-        </Route>
+        </Route> */}
       
       
       <Footer />
