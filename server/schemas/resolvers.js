@@ -45,7 +45,7 @@ const resolvers = {
                 throw new AuthenticationError('User with this email address was not found');
             }
 
-            const correctPass = await user.isCorrectPassword(password);
+            const correctPass = await profile.isCorrectPassword(password);
 
             if(!correctPass) {
                 throw new AuthenticationError('Incorrect credentials');
@@ -56,6 +56,7 @@ const resolvers = {
             return { token, profile };
         },
         addPost: async (parent, { postText }, context) => {
+            //console.log("Context", context);
             if (context.profile) {
                 const post = await Post.create({
                     postText,
@@ -70,7 +71,7 @@ const resolvers = {
 
                 return post;
             }
-            throw new AuthenticationError("Please log in");
+            throw new AuthenticationError("Please log in. (In resolvers!)");
         },
         addComment: async (parent, { commentText, postId }, context) => {
             if (context.profile) {
