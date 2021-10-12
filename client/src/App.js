@@ -63,6 +63,7 @@ function App() {
 
         <Route exact path='/client/src/pages/Profile.js'>
           <Profile />
+          <Loggedin />
         </Route>
 
         {/* <Route exact path='/client/src/pages/Signup.js'>
