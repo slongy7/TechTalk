@@ -6,6 +6,7 @@
 ## Description
 
 ## Technologies Used
+Bulma, Graphql, Apollo Client
 
 ## Bugs
 

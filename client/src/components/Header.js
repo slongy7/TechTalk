@@ -60,10 +60,7 @@ export class Header extends Component {
                       <a className="navbar-item">
                         Contact
                       </a>
-                      <hr className="navbar-divider"/>
-                      <a className="navbar-item">
-                        Report an issue
-                      </a>
+                      
                     </div>
                   </div>
                 </div>

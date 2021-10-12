@@ -17,13 +17,6 @@ const Landing = () => {
 
             </br>
 
-            
-
-            <div class="columns">
-                <div class="column is-half">is-half</div>
-                <div class="column"><input className='input' type='password' placeholder='********'></input></div>
-                <div class="column">Auto</div>
-            </div>
 
             <div class='columns is-mobile is-centered'>
                 <div class='columns is-half'></div>
