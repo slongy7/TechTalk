@@ -3,12 +3,15 @@ import { useQuery } from '@apollo/client';
 import 'bulma/css/bulma.min.css';
 import '../img/TechTalk.png'
 
-const Landing = () => {
+const Landing = (Image) => {
     return (
     
         <div class='colums is-half'>
             <div class='column is-8'></div>
             {/* <img>'../img/TechTalk.png</img> */}
+            <figure class="image is-128x128">
+                <img src={Image}></img>
+            </figure>
             
             
             
