@@ -42,7 +42,7 @@ const Landing = (Image) => {
 
     return (
     
-        <div className='colums is-half'>
+        <div className='columns is-half'>
             <div className='column is-8'></div>
             {/* <img>'../img/TechTalk.png</img> */}
             <figure className="image is-128x128">
