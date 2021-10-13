@@ -61,7 +61,7 @@ function App() {
           <Landing Image={Image}/>
         </Route>
 
-        <Route exact path='/client/src/pages/Profile.js'>
+        <Route exact path='/feed'>
           <Profile />
           <Loggedin />
         </Route>
