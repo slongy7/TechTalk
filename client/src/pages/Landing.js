@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../utils/mutations';
+import Signup from '../components/Signup';
 import Auth from '../utils/auth';
 import 'bulma/css/bulma.min.css';
 import '../img/TechTalk.png';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const Landing = (Image) => {
     const [formState, setFormState] = useState({ email: '', password: '' });
@@ -41,7 +43,8 @@ const Landing = (Image) => {
     };
 
     return (
-    
+
+    <Router>  
         <div className='columns is-half'>
             <div className='column is-8'></div>
             {/* <img>'../img/TechTalk.png</img> */}
@@ -55,7 +58,7 @@ const Landing = (Image) => {
                 <Link to="/feed">to your feed.</Link>
               </p> 
             ) : (
-            
+                <div>
             <form onSubmit = {handleFormSubmit} className='box'>
                 <br></br>
 
@@ -64,7 +67,8 @@ const Landing = (Image) => {
                     <p className='bd-notification is-primary'></p>
                 </div>
 
-                <a href="./Signup.js">Signup</a>
+                <a href="./signup" id="signup">Signup</a>
+
 
                 <br></br>
 
@@ -95,13 +99,16 @@ const Landing = (Image) => {
                 </div>
                 <button className="button is-primary">Sign In</button>
             </form>
+            </div>
 
         )} 
         
         </div>
+    </Router>
         
         )
     }
+
 
 
 export default Landing;
