@@ -14,6 +14,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import AllBulma from './components/AllBulma'
 //import AllBulma from './components/AllBulma'
 
+import Job from './components/Job'
 import Header from './components/Header'
 // import Landing from './components/Landing'
 import Portfolio from './components/Portfolio'
@@ -66,8 +67,17 @@ function App() {
           <Signup />
         </Route>
           <Route exact path='/feed'>
+            <div className='columns'>
+            <div className='column'>
             <Portfolio />
+            </div>
+            <div className='column'>
             <Loggedin />
+            </div>
+            <div className='column'>
+            <Job />
+            </div>
+            </div>
           </Route>
 
           {/* <Route exact path='/client/src/pages/Signup.js'>
