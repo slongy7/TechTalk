@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from './img/TechTalk.png'
+import Image from './img/TechTalk.png';
 
 
 import {
@@ -20,10 +20,11 @@ import Portfolio from './components/Portfolio'
 import Loggedin from './components/Loggedin'
 import Notloggedin from './components/Notloggedin'
 import Footer from './components/Footer'
+import Signup from './components/Signup'
 
 import Landing from './pages/Landing'
 import Profile from './pages/Profile'
-import Signup from './pages/Signup'
+
 import 'bulma/css/bulma.min.css';
 // import AllBulma from './components/AllBulma'
 
@@ -54,26 +55,29 @@ function App() {
 
   return (
     <ApolloProvider client={client}>
-    <Router>
-    <div className="App">
-      <Header />
-        <Route exact path='/'>
-          <Landing Image={Image}/>
+      <Router>
+        <div className="App">
+          <Header />
+          <Route exact path='/'>
+            <Landing Image={Image} />
         </Route>
 
-        <Route exact path='/feed'>
-          <Profile />
-          <Loggedin />
+        <Route exact path='/signup'>
+          <Signup />
         </Route>
+          <Route exact path='/feed'>
+            <Portfolio />
+            <Loggedin />
+          </Route>
 
-        {/* <Route exact path='/client/src/pages/Signup.js'>
+          {/* <Route exact path='/client/src/pages/Signup.js'>
           <Signup />
         </Route> */}
-      
-      
-      <Footer />
-    </div>
-    </Router>
+
+
+          <Footer />
+        </div>
+      </Router>
     </ApolloProvider>
   );
 }
