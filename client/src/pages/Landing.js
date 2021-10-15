@@ -64,11 +64,14 @@ const Landing = (Image) => {
 
                 <div className='columns is-mobile is-centered'>
                     <div className='columns is-half'></div>
-                    <p className='bd-notification is-primary'></p>
+                    <p className='bd-notification is-primary'>Login or Signup </p>
                 </div>
 
-                <a href="./signup" id="signup">Signup</a>
-
+                <div className="buttons">
+                      <a href="./signup"  className="button is-primary" id="signup">
+                        <strong>Sign up</strong>
+                      </a>
+                    </div>
 
                 <br></br>
 
