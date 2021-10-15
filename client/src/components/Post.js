@@ -55,7 +55,7 @@ const PostForm = () => {
 
         if (name === 'postText' && value.length <= 280) {
             setPostText(value);
-            setCharacterCount(value.length);
+            // setCharacterCount(value.length);
         }
     };
 
