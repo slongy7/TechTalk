@@ -1,8 +1,5 @@
 import React from 'react'
-var emoji = require('node-emoji')
 
-emoji.get('coffee')
-emoji.which(emoji.get('coffee'));
 
 const Feed = () => {
     return (
