@@ -22,6 +22,7 @@ import Loggedin from './components/Loggedin'
 import Notloggedin from './components/Notloggedin'
 import Footer from './components/Footer'
 import Signup from './components/Signup'
+import Post from './components/Post'
 
 import Landing from './pages/Landing'
 import Profile from './pages/Profile'
@@ -72,6 +73,7 @@ function App() {
             <Portfolio />
             </div>
             <div className='column'>
+            <Post />
             <Loggedin />
             </div>
             <div className='column'>
