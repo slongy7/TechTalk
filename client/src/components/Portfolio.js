@@ -7,12 +7,14 @@ import Auth from '../utils/auth';
 
 
 const Portfolio = () => {
-    const {username: userParam} = useParams();
+    // const {username: userParam} = useParams();
 
     // const {loading, data} = useQuery(userParam ? QUERY_PROFILE: QUERY_ME, {
-    //     variebles: {username: userParam}
+    //     variables: {username: userParam}
     // });
-
+    // // param comes back as undefined
+    // console.log('param: ' + userParam);
+    // console.log('username: ' + user);
     // const user = data?.me || data?.user || {};
 
     // if(Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
@@ -21,6 +23,14 @@ const Portfolio = () => {
 
     // if(loading) {
     //     return <div>Loading...</div>
+    // }
+
+    // if (user?.name) {
+    //   return (
+    //     <h4>
+    //       You need to be logged in to create posts or interact. Please sign up or log in.
+    //     </h4>
+    //   )
     // }
 
     return (
@@ -39,7 +49,7 @@ const Portfolio = () => {
           <div className="media-content">
             <div className="content">
               <p>
-                <strong>Justin Long</strong> <small>@thejustinlong</small> <small>31m</small>
+                <strong>Justin Long</strong> <small>@thejustinlong</small>
                 <br></br>
                 Hey! I'm Justin and I love dogs, creating React apps and the Ohio State Buckeyes! O-H!
               </p>

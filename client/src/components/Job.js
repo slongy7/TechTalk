@@ -27,40 +27,40 @@ const request = require('request');
 
 // Indeed API code?
 
-const options = {
-  method: 'GET',
-  url: 'https://indeed-indeed.p.rapidapi.com/apisearch',
-  qs: {
-    publisher: 'undefined',
-    v: '2',
-    format: 'json',
-    callback: '<REQUIRED>',
-    q: 'java',
-    l: 'austin, tx',
-    sort: '<REQUIRED>',
-    radius: '25',
-    st: '<REQUIRED>',
-    jt: '<REQUIRED>',
-    start: '<REQUIRED>',
-    limit: '<REQUIRED>',
-    fromage: '<REQUIRED>',
-    highlight: '<REQUIRED>',
-    filter: '<REQUIRED>',
-    latlong: '<REQUIRED>',
-    co: '<REQUIRED>',
-    chnl: '<REQUIRED>',
-    userip: '<REQUIRED>',
-    useragent: '<REQUIRED>'
-  },
-  headers: {
-    'x-rapidapi-host': 'indeed-indeed.p.rapidapi.com',
-    'x-rapidapi-key': '4a9bb43443mshce7991f3139be0ep1f0e4ejsndea25ff58f90',
-    useQueryString: true
-  }
-};
+// const options = {
+//   method: 'GET',
+//   url: 'https://indeed-indeed.p.rapidapi.com/apisearch',
+//   qs: {
+//     publisher: 'undefined',
+//     v: '2',
+//     format: 'json',
+//     callback: '<REQUIRED>',
+//     q: 'java',
+//     l: 'austin, tx',
+//     sort: '<REQUIRED>',
+//     radius: '25',
+//     st: '<REQUIRED>',
+//     jt: '<REQUIRED>',
+//     start: '<REQUIRED>',
+//     limit: '<REQUIRED>',
+//     fromage: '<REQUIRED>',
+//     highlight: '<REQUIRED>',
+//     filter: '<REQUIRED>',
+//     latlong: '<REQUIRED>',
+//     co: '<REQUIRED>',
+//     chnl: '<REQUIRED>',
+//     userip: '<REQUIRED>',
+//     useragent: '<REQUIRED>'
+//   },
+//   headers: {
+//     'x-rapidapi-host': 'indeed-indeed.p.rapidapi.com',
+//     'x-rapidapi-key': '4a9bb43443mshce7991f3139be0ep1f0e4ejsndea25ff58f90',
+//     useQueryString: true
+//   }
+// };
 
-request(options, function (error, response, body) {
-	if (error) throw new Error(error);
+// request(options, function (error, response, body) {
+// 	if (error) throw new Error(error);
 
-	console.log(body);
-});
+// 	console.log(body);
+// });
