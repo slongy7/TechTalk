@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {QUERY_ME, QUERY_PROFILE} from '../utils/queries'
 import {useQuery} from '@apollo/client'
 import { Redirect, useParams } from 'react-router-dom';
-import Image01 from "../img/justin_profile_pic.jpg";
+import Image01 from "../img/male1.jpg";
 import Auth from '../utils/auth';
 
 
@@ -24,10 +24,10 @@ const Portfolio = () => {
     // }
 
     return (
-    <div className="card">
+    <div className="card block">
         <div className="card-image">
-            <figure className="image is-4by3">
-                <img src={Image01} alt="Placeholder image"/>
+            <figure className="image is-1by1">
+                <img src={Image01} alt="Image of profile user"/>
             </figure>
         </div>
         <article className="media">
@@ -41,7 +41,7 @@ const Portfolio = () => {
               <p>
                 <strong>Justin Long</strong> <small>@thejustinlong</small> <small>31m</small>
                 <br></br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                Hey! I'm Justin and I love dogs, creating React apps and the Ohio State Buckeyes! O-H!
               </p>
             </div>
             {/* <nav className="level is-mobile">
