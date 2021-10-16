@@ -60,7 +60,7 @@ const PostForm = () => {
     };
 
     return (
-        <div className="card">
+        <div className="card block">
             <header className="card-header">
                 <p className="card-header-title">
                     What's on your mind?

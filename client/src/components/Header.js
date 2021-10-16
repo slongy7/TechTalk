@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-// import TechTalk from 'src/img/TechTalk.png'
+import TechTalk from '../img/techtalklogo.jpg'
 
 export class Header extends Component {
   
@@ -19,12 +19,11 @@ export class Header extends Component {
   return (
         
 
-            <nav className="navbar" role="navigation" aria-label="main navigation">
+            <nav className="navbar block" role="navigation" aria-label="main navigation">
               <div className="navbar-brand">
-                <a className="navbar-item" href="https://slongy7.github.io/project_3/">
-                  
-                  <h1 className = 'text'>TECHTALK</h1>  
-                  {/* <img src={TechTalk}/> */}
+                <a className="navbar-item"  href="https://slongy7.github.io/project_3/">
+                  <img class="image" src={TechTalk}/>
+
                 </a>
             
                 <a role="button" onClick={this.onClick} className={`navbar-burger ${this.props.className}`} aria-label="menu" aria-expanded="true" data-target="navbarBasicExample">
@@ -65,6 +64,7 @@ export class Header extends Component {
                 <div className="navbar-end">
                   <div className="navbar-item">
                     <div className="buttons">
+
                     </div>
                   </div>
                 </div>
