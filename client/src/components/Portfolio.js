@@ -8,19 +8,29 @@ import Auth from '../utils/auth';
 const Portfolio = () => {
     const {username: userParam} = useParams();
 
-    // const {loading, data} = useQuery(userParam ? QUERY_PROFILE: QUERY_ME, {
-    //     variebles: {username: userParam}
-    // });
+    const {loading, data} = useQuery(userParam ? QUERY_PROFILE: QUERY_ME, {
+        variables: {username: userParam}
+    });
+    // param comes back as undefined
+    console.log('param: ' + userParam);
+    console.log('username: ' + user);
+    const user = data?.me || data?.user || {};
 
-    // const user = data?.me || data?.user || {};
+    if(Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
+        <Redirect to="/me"/>;
+    }
 
-    // if(Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
-    //     <Redirect to="/me"/>;
-    // }
+    if(loading) {
+        return <div>Loading...</div>
+    }
 
-    // if(loading) {
-    //     return <div>Loading...</div>
-    // }
+    if (user?.name) {
+      return (
+        <h4>
+          You need to be logged in to create posts or interact. Please sign up or log in.
+        </h4>
+      )
+    }
 
     return (
     <div className="card">
@@ -38,9 +48,10 @@ const Portfolio = () => {
           <div className="media-content">
             <div className="content">
               <p>
-                <strong>Justin Long</strong> <small>@thejustinlong</small> <small>31m</small>
+                <strong>{userParam? `${user.name}`: 'No logged in user'}</strong> <small>@thejustinlong</small> <small>31m</small>
                 <br></br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                {/* /* {userParam.bio? `${user.bio}`: ''} */}
+                Hello there shoop
               </p>
             </div>
             {/* <nav className="level is-mobile">
