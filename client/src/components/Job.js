@@ -22,10 +22,10 @@ const Job = () => {
 
 export default Job;
 
-const request = require('request');
+// const request = require('request');
 
 
-// Indeed API code?
+// // Indeed API code?
 
 // const options = {
 //   method: 'GET',
