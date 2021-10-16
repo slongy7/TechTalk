@@ -31,13 +31,13 @@ export class Header extends Component {
               </a>
 
               <div className="navbar-dropdown">
-                <a className="navbar-item">
+                <a href='/about' className="navbar-item">
                   About
                 </a>
-                <a className="navbar-item">
+                <a href='/jobs' className="navbar-item">
                   Jobs
                 </a>
-                <a className="navbar-item">
+                <a href='/contact-us' className="navbar-item">
                   Contact
                 </a>
 
@@ -48,7 +48,7 @@ export class Header extends Component {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <a href="./" className="button is-primary" id="logout">
+                <a href="/" className="button is-primary" id="logout">
                   <strong>Logout</strong>
                 </a>
               </div>

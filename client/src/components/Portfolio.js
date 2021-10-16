@@ -40,7 +40,7 @@ const Portfolio = () => {
                 <img src={Image01} alt="Image of profile user"/>
             </figure>
         </div>
-        <article className="media">
+        <article className="media" style={{paddingTop: 8,paddingBottom:24, paddingLeft: 24, paddingRight:24, margin: "auto"}}>
           {/* <div className="media-left">
             <figure className="image is-64x64">
               <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image"></img>

@@ -14,6 +14,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import AllBulma from './components/AllBulma'
 //import AllBulma from './components/AllBulma'
 
+import Contact from './components/Contact';
 import Feed from './components/Feed'
 import Job from './components/Job'
 import Header from './components/Header'
@@ -24,6 +25,7 @@ import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 import Signup from './components/Signup'
 import Post from './components/Post'
+import About from './components/AboutUs';
 
 import Landing from './pages/Landing'
 import Profile from './pages/Profile'
@@ -82,11 +84,12 @@ function App() {
             </div>
             </div>
           </Route>
-
-          {/* <Route exact path='/client/src/pages/Signup.js'>
-          <Signup />
-        </Route> */}
-
+          <Route exact path='/contact-us'>
+            <Contact />
+          </Route>
+          <Route exact path='/about'>
+            <About />
+            </Route>
 
           <Footer />
         </div>
