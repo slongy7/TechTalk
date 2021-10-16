@@ -1,33 +1,40 @@
 import React from 'react'
 
+
 const Feed = () => {
     return (
-<div>        
-<article class="media">
-  <figure class="media-left">
-    <p class="image is-64x64">
+<div className="box">        
+<article className="media">
+  <figure className="media-left">
+    <p className="image is-64x64">
+
       <img src="https://bulma.io/images/placeholders/128x128.png"/>
     </p>
   </figure>
-  <div class="media-content">
-    <div class="content">
+  <div className="media-content">
+    <div classNameName="content">
       <p>
         <strong>Celina Lind</strong>
         <br></br>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros lacus, nec ultricies elit blandit non. Suspendisse pellentesque mauris sit amet dolor blandit rutrum. Nunc in tempus turpis.
         <br></br>
         <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
+        <footer className="card-footer">
+          <small><a href="#" className="card-footer-item">Save</a></small>
+          <small><a href="#" className="card-footer-item">Edit</a></small>
+          <small><a href="#" className="card-footer-item">Delete</a></small>
+        </footer>
       </p>
     </div>
 
-    <article class="media">
-      <figure class="media-left">
-        <p class="image is-48x48">
+    <article className="media">
+      <figure className="media-left">
+        <p className="image is-48x48">
           <img src="https://bulma.io/images/placeholders/96x96.png"/>
         </p>
       </figure>
-      <div class="media-content">
-        <div class="content">
+      <div className="media-content">
+        <div className="content">
           <p>
             <strong>Bo Vari</strong>
             <br></br>
@@ -37,24 +44,24 @@ const Feed = () => {
           </p>
         </div>
 
-        <article class="media">
+        <article className="media">
           Vivamus quis semper metus, non tincidunt dolor. Vivamus in mi eu lorem cursus ullamcorper sit amet nec massa.
         </article>
 
-        <article class="media">
+        <article className="media">
           Morbi vitae diam et purus tincidunt porttitor vel vitae augue. Praesent malesuada metus sed pharetra euismod. Cras tellus odio, tincidunt iaculis diam non, porta aliquet tortor.
         </article>
       </div>
     </article>
 
-    <article class="media">
-      <figure class="media-left">
-        <p class="image is-48x48">
+    <article className="media">
+      <figure className="media-left">
+        <p className="image is-48x48">
           <img src="https://bulma.io/images/placeholders/96x96.png"/>
         </p>
       </figure>
-      <div class="media-content">
-        <div class="content">
+      <div className="media-content">
+        <div className="content">
           <p>
             <strong>Alyson Orta</strong>
             <br></br>
@@ -68,21 +75,21 @@ const Feed = () => {
   </div>
 </article>
 
-<article class="media">
-  <figure class="media-left">
-    <p class="image is-64x64">
+<article className="media">
+  <figure className="media-left">
+    <p className="image is-64x64">
       <img src="https://bulma.io/images/placeholders/128x128.png"/>
     </p>
   </figure>
-  <div class="media-content">
-    <div class="field">
-      <p class="control">
-        <textarea class="textarea" placeholder="Add a comment..."></textarea>
+  <div className="media-content">
+    <div className="field">
+      <p className="control">
+        <textarea className="textarea" placeholder="Add a comment..."></textarea>
       </p>
     </div>
-    <div class="field">
-      <p class="control">
-        <button class="button">Post comment</button>
+    <div className="field">
+      <p className="control">
+        <button className="button">Post comment</button>
       </p>
     </div>
   </div>

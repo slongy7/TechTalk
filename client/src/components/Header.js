@@ -37,14 +37,11 @@ export class Header extends Component {
             
               <div id="navbarBasicExample" className={`navbar-menu ${this.props.className}`}>
                 <div className="navbar-start">
-                  <a className="navbar-item" href="/home">
+                  <a className="navbar-item" href="/feed">
                     Home
                   </a>
             
-                  <a className="navbar-item">
-                    Documentation
-                  </a>
-            
+           
                   <div className="navbar-item has-dropdown is-hoverable">
                     <a className="navbar-link">
                       More
@@ -68,12 +65,6 @@ export class Header extends Component {
                 <div className="navbar-end">
                   <div className="navbar-item">
                     <div className="buttons">
-                      <a className="button is-primary">
-                        <strong>Sign up</strong>
-                      </a>
-                      <a className="button is-light">
-                        Log in
-                      </a>
                     </div>
                   </div>
                 </div>

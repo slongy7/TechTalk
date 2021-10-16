@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {QUERY_ME, QUERY_PROFILE} from '../utils/queries'
 import {useQuery} from '@apollo/client'
 import { Redirect, useParams } from 'react-router-dom';
+import Image01 from "../img/justin_profile_pic.jpg";
 import Auth from '../utils/auth';
 
 
@@ -36,7 +37,7 @@ const Portfolio = () => {
     <div className="card">
         <div className="card-image">
             <figure className="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+                <img src={Image01} alt="Placeholder image"/>
             </figure>
         </div>
         <article className="media">

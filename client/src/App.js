@@ -14,14 +14,16 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import AllBulma from './components/AllBulma'
 //import AllBulma from './components/AllBulma'
 
+import Feed from './components/Feed'
 import Job from './components/Job'
 import Header from './components/Header'
 // import Landing from './components/Landing'
 import Portfolio from './components/Portfolio'
-import Loggedin from './components/Loggedin'
-import Notloggedin from './components/Notloggedin'
+// import Loggedin from './components/Loggedin'
+// import Notloggedin from './components/Notloggedin'
 import Footer from './components/Footer'
 import Signup from './components/Signup'
+import Post from './components/Post'
 
 import Landing from './pages/Landing'
 import Profile from './pages/Profile'
@@ -72,7 +74,8 @@ function App() {
             <Portfolio />
             </div>
             <div className='column'>
-            <Loggedin />
+            <Post />
+            <Feed />
             </div>
             <div className='column'>
             <Job />

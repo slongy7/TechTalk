@@ -4,11 +4,15 @@
 
 
 ## Description
+This app is designed to be a social media application specifically made for people and professionals.  The plan is to have a personal profile in which you can make posts, read othe people's posts, make friends and connections, and continue to learn.  The version 2 version is planning on having a job board API, and a chat function as well.
 
 ## Technologies Used
-Bulma, Graphql, Apollo Client, React
+Bulma, Graphql, Apollo Client, React, Express
 
 ## Bugs
+We had full plans to add the jobs API to version 1, but we ran into some implementation issues and were unable to do it in time.  
+
+Bulma isn't an easy frontend component to use with JavaScript, so we had to work around that a little bit.
 
 ## Images
 
@@ -18,6 +22,10 @@ Bulma, Graphql, Apollo Client, React
 https://github.com/slongy7/project_3
 
 ## Future Development
+Adding a chat feature
+Adding the job API
+Add Emoji
+Add a bad word filter
 
 ## License
 MIT License
