@@ -84,7 +84,7 @@ const PostForm = () => {
                         ></textarea>
                         <button className="button" type="submit">Save</button>
                         {/* <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a> */}
-                        <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                        {/* <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time> */}
                     </form>
                 </div>
             ) : (
