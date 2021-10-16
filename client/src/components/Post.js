@@ -60,7 +60,7 @@ const PostForm = () => {
     };
 
     return (
-        <div className="card">
+        <div className="card block">
             <header className="card-header">
                 <p className="card-header-title">
                     What's on your mind?
@@ -90,7 +90,7 @@ const PostForm = () => {
             ) : (
                 <p>
                     You need to be logged in to share your thoughts. Please {' '}
-                    <Link to="/login">login</Link> or <Link to="/signup"> signup.</Link>
+                    <Link to="/">login</Link> or <Link to="/signup"> signup.</Link>
                 </p>
             )}
         </div >

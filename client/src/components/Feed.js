@@ -1,4 +1,8 @@
 import React from 'react'
+import Female1 from '../img/female1.jpg'
+import Female2 from '../img/female3.jpg'
+import Male2 from '../img/male2.jpg'
+import Male1 from '../img/male1.jpg'
 
 
 const Feed = () => {
@@ -8,7 +12,7 @@ const Feed = () => {
   <figure className="media-left">
     <p className="image is-64x64">
 
-      <img src="https://bulma.io/images/placeholders/128x128.png"/>
+      <img src={Female1} alt="Celina's Profile pic"/>
     </p>
   </figure>
   <div className="media-content">
@@ -16,7 +20,7 @@ const Feed = () => {
       <p>
         <strong>Celina Lind</strong>
         <br></br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros lacus, nec ultricies elit blandit non. Suspendisse pellentesque mauris sit amet dolor blandit rutrum. Nunc in tempus turpis.
+        Hey all you cool techy cats and kittens! I'm currently attending a web dev program and want to form a study group.. anyone in?
         <br></br>
         <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
         <footer className="card-footer">
@@ -30,7 +34,7 @@ const Feed = () => {
     <article className="media">
       <figure className="media-left">
         <p className="image is-48x48">
-          <img src="https://bulma.io/images/placeholders/96x96.png"/>
+          <img src={Male2} alt="Bo's profile pic"/>
         </p>
       </figure>
       <div className="media-content">
@@ -38,26 +42,18 @@ const Feed = () => {
           <p>
             <strong>Bo Vari</strong>
             <br></br>
-            Donec sollicitudin urna eget eros malesuada sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam blandit nisl a nulla sagittis, a lobortis leo feugiat.
+            Hey Celina! I'd definitely be interested in a study group! I'm working on learning C# right now.. what about you?
             <br></br>
             <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
           </p>
         </div>
-
-        <article className="media">
-          Vivamus quis semper metus, non tincidunt dolor. Vivamus in mi eu lorem cursus ullamcorper sit amet nec massa.
-        </article>
-
-        <article className="media">
-          Morbi vitae diam et purus tincidunt porttitor vel vitae augue. Praesent malesuada metus sed pharetra euismod. Cras tellus odio, tincidunt iaculis diam non, porta aliquet tortor.
-        </article>
       </div>
     </article>
 
     <article className="media">
       <figure className="media-left">
         <p className="image is-48x48">
-          <img src="https://bulma.io/images/placeholders/96x96.png"/>
+          <img src={Female2} alt="Alyson's profile pic"/>
         </p>
       </figure>
       <div className="media-content">
@@ -65,7 +61,7 @@ const Feed = () => {
           <p>
             <strong>Alyson Orta</strong>
             <br></br>
-            Sed convallis scelerisque mauris, non pulvinar nunc mattis vel. Maecenas varius felis sit amet magna vestibulum euismod malesuada cursus libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus lacinia non nisl id feugiat.
+            I'm in! I LOVE coffee.. we should meet up at a local shop and study!
             <br></br>
             <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
           </p>
@@ -78,7 +74,7 @@ const Feed = () => {
 <article className="media">
   <figure className="media-left">
     <p className="image is-64x64">
-      <img src="https://bulma.io/images/placeholders/128x128.png"/>
+      <img src={Male1} alt="Justin's profile pic"/>
     </p>
   </figure>
   <div className="media-content">
